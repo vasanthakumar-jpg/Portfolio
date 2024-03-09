@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASANTHAKUMAR</title>
+    <link rel="stylesheet" href="./style.css">
+    <!---font-awesome CDN--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---font-awesome CDN--->
+
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- Bootstrap CDN -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script>
+        function hide_show() {
+          var x = document.getElementById("details");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+        
+
+
+</head>
+
+<body>  
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <!-- <label class="logo">VKPortfolio</label> -->
+        <ul>
+            <li><a  href="index.html" id="a">Home</a></li>
+            <li><a href="#About-me" id="a">About</a></li>
+            <li><a href="#Education-Page" id="a">Education</a></li>
+            <li><a href="#Skills-Page" id="a">Skills</a></li>
+
+            <li><a href="#Certificate-Page" id="a">Certificate</a></li>
+            <li><a href="#Contact-Page" id="a">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Home page -->
+    <section class="home">
+<br>
+<br>
+<br>
+<br>
+        <div class="home-img">
+            <img src="./image/4.webp" class="new" alt="">
+        </div>
+
+
+        <div class="home-content">
+            <h3>Hello</h3>
+            <h1>I'm vasanthakumar</h1>
+            <p>Bachelor of engineering
+                graduate with a keen passion for Web development / Python developer. Excited to bring my enthusiasm and
+                eagerness to contribute to a dynamic team
+            </p>
+            <div class="icon">
+                <a href="https://www.facebook.com/vasanthvasu.vasanthvasu.98"><i class='fab fa-facebook-f'></i></a>
+                <a href="https://web.whatsapp.com/"><i class='fab fa-whatsapp'></i></a>
+                <a href="https://www.instagram.com/vasanth_vasu_vv/"><i class='fab fa-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/vasanthakumar-rajendran-83993422b/"><i class='fab fa-linkedin'></i></a>
+                <br>
+            </div>
+            <button class="btn"><a href="image/vasanthakumar R.docx" id="download-btn">Download CV</a></button>
+        </div>
+
+    </section>
+
+    <!-- About Page -->
+    <h1 id="About-me"></h1>
+<!-- <br> <br> -->
+<!-- <br> <br> -->
+
+    <section class="about">
+
+        <div class="about-img">
+
+            <img src="./image/e3.png" class="new" style="height:470px ;" alt="">
+        </div>
+
+        <div class="about-content">
+            <p style="margin: 50px;">I am outgoing, dedicated, and open-minded. I get across to people and adjust to
+                changes with ease.
+                I believe that a person should work on developing their professional skills and learning new things all
+                the time.
+                Currently, I am looking for new career opportunities my current job position cannot provide.
+            </p>
+            <button class="btn"  onclick="hide_show()">Read More...</button>
+
+            <pre id="details">
+                Name   : Vasanthakumar R <br>
+                Degree : BE/CSE<br>
+                Phone  : 7339232817<br>
+                Mail   : vasanthakumar@141099@gmail.com<br>
+                College: Nandha Engineering College<br>
+                Native : Tirupur   
+            </pre>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <h1 id="Education-Page">   </h1>
+<br> <br>
+<br> <br>
+    <section class="education">
+
+        <!--Education box1-->
+        <div class="box1">
+            <img src="./image/clg.jpg" id="clg" alt="">
+            <h2 style="text-align: center;color:#fff ;">BE/CSE</h2>
+            <h3 id="e-content">6.95 CGPA</h3>
+
+            <p class="box-content">Nandha Engineering College is situated in Erode in Tamil Nadu state of India.
+                This college was established in 2001.</p>
+            <a href="https://nandhaengg.org/" id="btn">Read More...</a>
+        </div>
+
+        <!--Education box2-->
+        <div class="box2">
+            <img src="./image/scl1.jpg" id="clg" alt="">
+            <h2 style="text-align: center;color:#fff ;">HSC</h2>
+            <h3 id="e-content">81%</h3>
+            <p class="box-content">Vidhya Vikas matric higher vidhyaa-vikas-matriculation-higher-secondary-school.
+                This college was established in 1997.
+            </p>
+            <a href="https://stackschools.com/schools/33332201217/vidhyaa-vikas-matriculation-higher-secondary-school-kulathu%E2%80%A6"
+                id="btn">Read More...</a>
+        </div>
+
+        <!--Education box3-->
+        <div class="box3">
+            <img src="./image/scl2.avif" id="clg" alt="">
+            <h2 style="text-align: center;color:#fff ;">SSLC</h2>
+            <h3 id="e-content">70%</h3>
+            <p class="box-content">Vidhya Vikas matric higher vidhyaa-vikas-matriculation-higher-secondary-school.
+                This college was established in 1997.
+
+            </p>
+            <a href="https://stackschools.com/schools/33332201217/vidhyaa-vikas-matriculation-higher-secondary-school-kulathu%E2%80%A6"
+                id="btn">Read More...</a>
+        </div>
+
+    </section>
+
+    <!-- Skills Page -->
+
+    <section class="skills">
+        <h1 id="Skills-Page"></h1>
+        <br><br>
+        <br><br>
+        <i class="fa-brands fa-html5" style="color: #254bdd;background-color: #fff;"></i>
+        <span class="s-p">90%</span>
+        <h4>HTML</h4>
+        <progress max="100" value="90"></progress>
+        <br>
+        <br>
+        <i class="fa-brands fa-css3-alt" style="color: #254bdd;background-color: #fff;"></i>
+        <span class="s-p">80%</span>
+        <h4>CSS</h4>
+        <progress max="100" value="80"></progress>
+        <br>
+        <br>
+        <i class="fa-brands fa-bootstrap" style="color: #7010ef;background-color: #fff;"></i>
+        <span class="s-p">75%</span>
+        <h4>BOOTSTRAP</h4>
+        <progress max="100" value="75"></progress>
+        <br>
+        <br>
+        <i class="fa-brands fa-js" style="color: #FFD43B;background-color: #fff;"></i>
+        <span class="s-p">70%</span>
+        <h4>JAVASCRIPT</h4>
+        <progress max="100" value="70"></progress>
+        <br>
+        <br>
+        <i class="fa-brands fa-python " style="color: #FFD43B;background-color: #fff;"></i>
+        <span class="s-p">60%</span>
+        <h4>PYTHON</h4>
+        <progress max="100" value="60"></progress>
+        <br>
+        <br>
+
+    </section>
+
+    <h1 id="Certificate-Page"></h1>
+    <BR><br>
+        <br>
+    <section class="certificate">
+
+        <div class="b1">
+            <img src="image/cert1.jpg" id="b1-img" alt="">
+        </div>
+        <div class="b2">
+            <img src="image/cert 2.jpg" id="b2-img" alt="">
+        </div>
+    </section>
+    <br>
+    <br><br>
+
+
+    <h1 id="Contact-Page"> </h1>
+    <br><br><br>
+    <br><br>
+
+
+    <section class="contact">
+
+        <div class="c1">
+            <pre id="contact-address">
+    <j class="fa-solid fa-house" ></j> Address 
+
+        8,Bhavani nagar 1st street,
+
+        pappanayakkan palayam,
+            
+        Tirupur-641607.
+
+
+    <j class="fa-solid fa-phone"></j> +91 7339232817
+
+    <j class="fa-regular fa-envelope"></j>  vasanthakumar141099@gmail.com
+
+        </pre>
+        </div>
+
+
+        <div classs="c2" style=" margin: 20px;">
+            <form action="">
+                <div class="column">
+                    <input type="text" placeholder="Name*" required name="name"
+                        oninvalid="this.setCustomValidity('Please Enter Your Name')"
+                        oninput="this.setCustomValidity('')">
+                </div>
+                <div class="column half">
+                    <input type="email" placeholder="Email*" required name="email"
+                        oninvalid="this.setCustomValidity('Please Enter Your Email')"
+                        oninput="this.setCustomValidity('')">
+                </div>
+                <div class="column half">
+                    <input type="tel" placeholder="Phone*" required name="phone"
+                        oninvalid="this.setCustomValidity('Please Enter Your Phone No')"
+                        oninput="this.setCustomValidity('')" pattern="[1-9]{1}[0-9]{9}">
+                </div>
+                <div class="column">
+                    <textarea placeholder="Message*" required
+                        oninvalid="this.setCustomValidity('Please Enter Your Message')"
+                        oninput="this.setCustomValidity('')"></textarea>
+                </div>
+                <div class="column">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+    
+
+
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.128860529806!2d77.36455824881698!3d11.103772792061099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907c353428c3d%3A0x547ac42eaa04c6af!2sBhavani%20Nagar%20Rd%2C%20Bavani%20Nagar%2C%20Tiruppur%2C%20Tamil%20Nadu%20641604!5e0!3m2!1sen!2sin!4v1654250506387!5m2!1sen!2sin"
+     allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+
+
+<!-- <footer>
+    
+    <a class="active" id="footer" href="#">Home</a>
+        <a href="#" id="footer">About</a>
+        <a href="#" id="footer">Education</a>
+        <a href="#" id="footer">Skills</a>
+
+      <a href="#" id="footer">Certificate</a>
+      <a href="#" id="footer">Contact</a>
+      <span style="color: #0ef;padding-right: 10px;">Social Media</span> 
+
+       <a href="#"><i class='fab fa-facebook-f'></i></a>
+                <a href="#"><i class='fab fa-whatsapp'></i></a>
+                <a href="#"><i class='fab fa-instagram'></i></a>
+                <a href="#"><i class='fab fa-twitter'></i></a>
+    
+</footer> -->
+<!-- <br> -->
+
+<span class="copyrights">&copy;Copyrights|Designed by vasanthakumar R</span>
+
+
+</body>
+
+</html>
